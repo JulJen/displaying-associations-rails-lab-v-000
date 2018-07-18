@@ -3,4 +3,6 @@ class Artist < ActiveRecord::Base
 
   def count_song
     self.songs.length
+  end
+  
 end
